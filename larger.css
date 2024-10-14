@@ -1,0 +1,79 @@
+/* large.css */
+
+@media (min-width: 768px) {
+    nav {
+        justify-content: space-around;
+    }
+
+    .main-banner {
+        padding: 100px 20px;
+    }
+
+    .main-banner h1 {
+        font-size: 3.5em;
+    }
+
+    .main-banner p {
+        font-size: 1.5em;
+    }
+
+    .section-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .section {
+        flex: 1;
+        margin: 20px;
+    }
+
+    .section-content {
+        flex: 1;
+    }
+
+    .section h2 {
+        font-size: 2em;
+    }
+
+    .section p {
+        font-size: 1.2em;
+    }
+
+    .cta-button {
+        padding: 15px 30px;
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    header, footer {
+        padding: 20px 0;
+    }
+
+    nav a {
+        margin: 0 20px;
+    }
+
+    .main-banner {
+        padding: 150px 20px;
+    }
+
+    .main-banner h1 {
+        font-size: 4.5em;
+    }
+
+    .main-banner p {
+        font-size: 2em;
+    }
+
+    .section {
+        padding: 60px;
+    }
+
+    .cta-button {
+        padding: 20px 40px;
+        font-size: 1.5em;
+    }
+}
